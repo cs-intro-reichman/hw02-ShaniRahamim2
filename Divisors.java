@@ -9,6 +9,7 @@ public class Divisors {
 			if(num%divisor == 0) 
 			System.out.println(divisor);
 			divisor ++ ;
+			
 		
 	}
 }
