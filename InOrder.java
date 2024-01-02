@@ -4,6 +4,13 @@
  */
 public class InOrder {
 	public static void main (String[] args) {
-		//// Write your code here
+		int num = (int)(10 * Math.random() );
+		int i = -1; 
+
+		while(i<=num) {
+			System.out.print(num + " "); 
+			i = num ; 
+			num = (int)(10 * Math.random() );
+			}
+		}
 	}
-}
